@@ -12,7 +12,7 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
 {
     
     
-    
+    var locationArray = [Int]()
     
     var location : CLLocationManager!{
         
