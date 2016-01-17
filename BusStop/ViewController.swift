@@ -12,6 +12,8 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
 {
     
     
+    var text = String()
+    
     var locationArray = [Int]()
     
     var location : CLLocationManager!{
